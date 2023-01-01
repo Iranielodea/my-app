@@ -1,6 +1,6 @@
 export default function Menu() {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
@@ -24,19 +24,19 @@ export default function Menu() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">Home</a>
+              <a className="nav-link" aria-current="page" href="#banner">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <a className="nav-link" href="#features">Features</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Clientes</a>
+              <a className="nav-link" href="#testemunho">Clientes</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Planos e Precos</a>
+              <a className="nav-link" href="#preco">Planos e Precos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contato</a>
+              <a className="nav-link" href="#footer">Contato</a>
             </li>
             <li className="nav-item dropdown">
               <a
